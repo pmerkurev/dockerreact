@@ -10,4 +10,4 @@ before_install:
   - docker build -t pasha/docker-react -f Dockerfile.dev .
   
 script:
-  - docker run pasha/docker-react npm run test -- --coverage
+  - docker run -e CI=true pasha/docker-react npm run test -- --coverage
