@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Checkpoint.
-          Fortinet.
+          Fortinet. Changed branches
           Palo alto
         </p>
 
